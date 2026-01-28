@@ -42,7 +42,7 @@ Adjust simulation parameters (e.g., `_n`, `_simTime`, `_cwmin`, `_cwmax`, `_pktS
 ## Cite
 If you use this code, please cite:
 ```
-@article{TU2024110690,
+@article{2024110690,
 author = {Tu, Yi-Hao, Lin, En-Cheng, Ke, Chih-Heng, and Ma, Yi-Wei},
 journal = {Computer Networks},
 title = {Enhanced-SETL: A multi-variable deep reinforcement learning approach for contention window optimization in dense Wi-Fi networks},
