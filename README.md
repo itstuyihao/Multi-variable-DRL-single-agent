@@ -1,7 +1,7 @@
 # Multi-Variable Single-Agent DRL Model for CW Optimization
 
 ## Overview
-This repository implements the **multi-variable DRL model** proposed in the paper “Enhanced-SETL: A multi-variable deep reinforcement learning approach for contention window (CW) optimization in dense Wi-Fi networks.”(https://doi.org/10.1016/j.comnet.2024.110690) The script in `main.py` builds a Double DQN (PARL/PaddlePaddle) agent that jointly tunes the CW minimum (`CWmin`) and CW threshold (`CWThreshold`) value to stabilize throughput and fairness for IEEE 802.11 DCF. The environment is simplified (no channel fading or PHY timing beyond slot-level events) and is intended for algorithm verification, not standard-compliant performance claims.
+This repository implements the **multi-variable DRL model** proposed in the paper [“Enhanced-SETL: A multi-variable deep reinforcement learning approach for contention window (CW) optimization in dense Wi-Fi networks.”](https://doi.org/10.1016/j.comnet.2024.110690) The script in `main.py` builds a Double DQN (PARL/PaddlePaddle) agent that jointly tunes the CW minimum (`CWmin`) and CW threshold (`CWThreshold`) value to stabilize throughput and fairness for IEEE 802.11 DCF. The environment is simplified (no channel fading or PHY timing beyond slot-level events) and is intended for algorithm verification, not standard-compliant performance claims.
 
 ## Requirements
 - Python ≥ 3.8
